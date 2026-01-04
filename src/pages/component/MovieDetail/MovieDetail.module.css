@@ -1,0 +1,30 @@
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.movieDetail {
+  background-color: #100f0d;
+  color: #fff;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.movieDetail h2 {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #fff;
+}
+
+.movieDetail p {
+  margin-bottom: 10px;
+}
+
+.movieDetail .video {
+  width: 2000px;
+}

@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 1s ease;
+  z-index: 100;
+}
+
+.navbar .logo {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.dark {
+  background-color: #000;
+}

@@ -1,0 +1,34 @@
+.movieList {
+  padding: 40px 20px;
+  background-color: #100f0d;
+}
+
+.original {
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.original ul {
+  display: flex;
+  gap: 10px;
+}
+
+.original li {
+  flex: 0 0 auto;
+  list-style: none;
+  width: 177px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.original li img {
+  width: 100%;
+}
+
+.original li:hover {
+  transform: scale(1.1);
+}
+
+.original::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,31 @@
+.resultList {
+  padding: 20px 50px;
+}
+
+.resultList h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.resultList ul {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  column-gap: 10px;
+  row-gap: 15px;
+  list-style: none;
+}
+
+.resultList img:hover {
+  transform: scale(1.1);
+}
+
+.resultList img {
+  height: 100%;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+}
+
+.movieDetail {
+  grid-column: 1/-1;
+}

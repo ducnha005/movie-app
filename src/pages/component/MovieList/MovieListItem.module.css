@@ -1,0 +1,45 @@
+.movieListItem {
+  margin-bottom: 30px;
+}
+
+.movieListItem h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.container {
+  overflow-x: scroll;
+  padding: 20px 10px;
+}
+
+.container ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.container li {
+  width: 177px;
+  flex: 0 0 auto;
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.container li:hover {
+  transform: scale(1.1);
+}
+
+.container li img {
+  color: #fff;
+}
+
+.container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: #11171a;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #292929;
+}
